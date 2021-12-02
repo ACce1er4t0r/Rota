@@ -14,7 +14,7 @@ class Game(object):
     currentGame = []
 
     def __init__(self):
-        self.handle(self.session.get(self.url+"?request=new&email=shiyin.lin@ufl.edu").json())
+        self.handle(self.session.get(self.url+"?request=new&email=xxx@xxx.xxx").json())
 
     def handle(self, req):
         if req.get('status', '') != 'success':
